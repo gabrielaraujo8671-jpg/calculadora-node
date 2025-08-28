@@ -1,6 +1,3 @@
-// calculadora.js
-// Módulo com as operações matemáticas pedidas no exercício.
-
 function validarNumero(n) {
   if (typeof n !== 'number' || Number.isNaN(n)) {
     throw new Error('Os argumentos devem ser números.');
